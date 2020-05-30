@@ -177,12 +177,12 @@ def send():
 		data=mycur.fetchall()
 
 		
-		account_sid = 'ACca951749491d9fc23ac4fde324b9d05b' 
-		auth_token = '37d732f90521138da6dbb04a45fc872a' 
+		account_sid = 'xxxxxxxxxxxxxxxxxxx' 
+		auth_token = 'xxxxxxxxxxxxxxxxxxxxx' 
 		client = Client(account_sid, auth_token) 
  
 		message = client.messages.create( 
-		                              from_='+12067373642',  
+		                              from_='xxxxxxxxxxxx',  
 		                              body='hi donor..!'
 		                              		'There is an aurgent need of blood of your group. Kindly help us. ' 
 		                              		'Looking forward for your help',      
